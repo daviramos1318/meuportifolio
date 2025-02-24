@@ -8,7 +8,7 @@
     body {
 
         height: 100vh;
-        background-color: rgb(20, 214, 235);
+        background-color: rgb(225, 228, 191);
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -19,6 +19,70 @@
 
    .cabecalho {
 
-padding: 1% 0% 0% 34%;
+padding: 2% 2% 2% 25%;
 
     }
+
+.cabecalho-menu {
+
+    display: flex;
+    gap: 80px;
+
+    }
+
+.cabecalho-menu-links {
+
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ font-size: 24px;
+ font-weight: 600;
+ color: rgb(49, 37, 60);
+ text-decoration: none;
+
+} 
+
+.titulo-destaque {
+
+color:black
+
+}
+
+.conteudo {
+
+height: auto;
+flex-direction: column;
+margin: 10%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 15px;
+
+}
+
+.apresentacao-conteudo {
+
+width: 615px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+height: auto;
+gap: 40px;
+order: 2;
+}
+
+.apresentacao-conteudo-titulo{
+
+font-size: 36px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: justify;
+
+}
+
+.apresentacao-conteudo-paragrafo {
+
+font-size: 24px;
+font-family: Georgia, 'Times New Roman', Times, serif
+text-align: justify;
+
+}
